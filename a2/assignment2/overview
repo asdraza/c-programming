@@ -1,0 +1,49 @@
+n today’s Practical Session, you should continue work (or start work, if you haven’t already started!)
+on Assignment 2, to create a program that manages a game of Othello for two players.
+I suggest that there are three things that you should work on in today’s Practical and get help
+from the Demonstrators, if required.
+1. As a starting-point, you should give some thought to the overall structure of your program.
+The following is the pseudocode I suggested in the lecture last Tuesday:
+Main program
+Initialise the board
+Initialise the players
+Print out the board
+Play the game
+Determine the winner
+Print out the result
+Print the result to the file
+Of course, you are free to modify this or to take a completely different approach. It may also
+be the case that your initial structure will be modified as you develop your solution.
+2. Secondly, you should consider the data that you need and the data structures that you will
+require to store these data. I would strongly recommend the use of C structs and enums to
+help you organise the data.
+You should ensure that you know how to create structures in C and how to use structs.
+3. Thirdly, as I suggested, you should try to get some simpler aspects of your solution imple-
+mented. I suggest that you start with taking user input from the keyboard and taking the
+board and printing it out on the screen.
+Recall that it is not necessary to develop a graphical interface: all that is required is to take
+as input a player’s move from the keyboard and to print the board out on the screen using
+characters and strings. An example of the output to the screen is presented overleaf.
+$ othello
+*** Welcome to Othello! ***
+Enter name of Player 1 (Black): John
+Enter name of Player 2 (White): Tigger
+Score: John (Black) 2:2 Tigger (White)
+--- --- --- --- --- --- --- ---
+1 | | | | | | | | |
+--- --- --- --- --- --- --- ---
+2 | | | | | | | | |
+--- --- --- --- --- --- --- ---
+3 | | | | | | | | |
+--- --- --- --- --- --- --- ---
+4 | | | | W | B | | | |
+--- --- --- --- --- --- --- ---
+5 | | | | B | W | | | |
+--- --- --- --- --- --- --- ---
+6 | | | | | | | | |
+--- --- --- --- --- --- --- ---
+7 | | | | | | | | |
+--- --- --- --- --- --- --- ---
+8 | | | | | | | | |
+--- --- --- --- --- --- --- ---
+a b c d e f g h
