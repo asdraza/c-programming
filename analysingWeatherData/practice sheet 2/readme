@@ -1,0 +1,15 @@
+1. Watch and listen to the presentation on libraries and their creation and use in CLion.
+If you have any questions, make sure that you ask one of the Demonstrators after the presentation.
+2. Follow the instructions to create an application p2q2 to calculate and print out the average
+of ten numbers. As part of this, create a file p2q2.c containing your main program.
+Ensure that you know how this code works. Experiment with changing various constants and
+other pieces of code.
+3. Follow the instructions to create an application p2q3 to read weather data from a file
+weather.txt. Your main program should be in a file p2q3.c.
+Ensure that you know how this code works. Experiment with changing various constants and
+other pieces of code.
+What happens if you move the declarations from outside the main function to inside it?
+Experiment with this.
+What happens if the file weather.txt does not contain any data? What happens if you do
+not have access to it, it does not exist or it is not readable? What happens if it contains more
+that five lines? Experiment with these aspects.
